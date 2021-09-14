@@ -1,0 +1,21 @@
+.navbar-config{
+    background-color: var(--navbar-bg);
+    height: var(--navbar-height);
+    box-shadow: 20px 10px 10px rgba(0, 0, 0, 0.26);
+}
+
+.navbar-navsection-config{
+    width: var(--navbar-navsection-size);
+}
+
+.carousel{
+    box-shadow: 30px 15px 15px rgba(0, 0, 0, 0.513);
+}
+
+.main-container-config{
+    margin-top: var(--container-config-margin-top);
+}
+
+.section-config{
+    margin-top: var(--section-margin-top);
+}

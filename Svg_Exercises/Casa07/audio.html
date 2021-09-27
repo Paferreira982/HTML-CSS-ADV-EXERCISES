@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <head>
+        <nav>
+            <a href="audio.html">Audio</a>
+            <a href="video.html">Vídeo</a>
+        </nav>
+    </head>
+    <main>
+        <h3>LINKIN PARK - BLACKOUT</h3>
+        <audio id="musica" autoplay="autoplay">
+            <source src="midia/Blackout - Linkin Park (A Thousands Suns)_160k.mp3" type="audio/mp3" />
+            Audio não suportado pela versão atual do seu navegador. Atualize para ouvir.
+        </audio>
+        <div class="audio-midia">
+            <img src="img/play_arrow_black_24dp.svg" alt="Botão de play" onclick="play()">
+            <img src="img/pause_black_24dp.svg" alt="Botão de pause" onclick="pause()">
+            <img src="img/volume_up_black_24dp.svg" alt="Botão de volume up" onclick="volume(+0.1)">
+            <img src="img/volume_down_black_24dp.svg" alt="Botão de volume down" onclick="volume(-0.1)">
+        </div>
+    </main>
+
+</body>
+<script src="js/basic.js"></script>
+</html>

@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(223, 223, 223);
+}
+
+img{
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.video-midia{
+    width: 100px;
+    background-color: white;
+    padding: 5px;
+    padding-bottom: 2px;
+}
+
+.audio-midia{
+    width: 140px;
+    background-color: white;
+    padding: 5px;
+    padding-bottom: 2px;
+}

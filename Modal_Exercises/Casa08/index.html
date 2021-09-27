@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODAIS</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#video1">
+        Chamar Modal
+    </button>
+
+    <div class="modal fade" id="video1" aria-labelledby="label1" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="label1">LINKIN PARK - CRAWLING LIVE</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <video id="video">
+                                <source src="midia/Crawling Official One More Light Live - Linkin Park_360P.mp4" type="video/mp4">
+                                Video não suportado pela versão atual do seu navegador. Atualize para ouvir.
+                            </video>
+                            <div class="container-fluid audio-midia">
+                                <img id="botao-play-pause" src="img/play_arrow_black_24dp.svg" alt="Botão de play" onclick="playPause()">
+                                <img src="img/volume_up_black_24dp.svg" alt="Botão de volume up" onclick="volumeVideo(+0.1)">
+                                <img src="img/volume_down_black_24dp.svg" alt="Botão de volume down" onclick="volumeVideo(-0.1)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="exitVideo()">
+                        Sair
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="js/basic.js"></script>
+<script src="js/modais.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script>
+</html>

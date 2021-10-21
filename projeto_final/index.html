@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamborghini</title>
+
+    <!--Styles/Scripts importados -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!--Styles/Scripts proprios-->
+    <link rel="stylesheet" href="./css/nav-bar.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <script src="js/nav-bar.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        Lamborghini
+                    </a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Modelos</a></li>
+                        <li><a href="#">Outra Aba</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    
+
+    <main style="height: 300vh;">
+        <div class="bg-images">
+            <div class="home-bg-img"></div>
+        </div>
+        
+        <div class="container container-config">
+            <div>
+                <h1>HISTÓRIA DA LAMBORGHINI <hr></h1>
+            </div>
+            
+        </div>
+
+    </main>
+
+    <footer>
+    </footer>
+</body>
+
+<script>
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('.nav').addClass('affix');
+        } else {
+            $('.nav').removeClass('affix');
+        }
+    });
+</script>
+
+</html>

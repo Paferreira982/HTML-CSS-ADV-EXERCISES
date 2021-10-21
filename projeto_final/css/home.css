@@ -2,6 +2,25 @@ div h1 {
     display: inline-block;
 }
 
+div img {
+    margin-top: 50px;
+    padding-bottom: 100px;
+    max-width: 100%;
+}
+
+p {
+    color: gray;
+    font-size: 20px;
+}
+
+.bg-black {
+    background: black;
+}
+
+.white {
+    color: white;
+}
+
 hr {
     position: relative;
     top: 10px;

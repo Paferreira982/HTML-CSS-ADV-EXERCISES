@@ -1,0 +1,99 @@
+div h1 {
+    display: inline-block;
+}
+
+hr {
+    position: relative;
+    top: 10px;
+    height: 6px;
+    background: black;
+    margin-bottom: 50px;
+}
+
+.bg-images {
+    background-color: black;
+}
+
+.container-config {
+    margin-top: 60px;
+}
+
+.home-bg-img {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    opacity: 0;
+    animation-name: transitImg;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 120s;
+    z-index: 10;
+}
+
+@keyframes transitImg {
+    0% {
+        background-image: url('../img/lambo1.jpg');
+    }
+    2% {
+        opacity: 1;
+    }
+    8% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        background-image: url('../img/lambo2.jpg');
+    }
+    22% {
+        opacity: 1;
+    }
+    28% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    40% {
+        background-image: url('../img/lambo3.jpg');
+    }
+    42% {
+        opacity: 1;
+    }
+    48% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        background-image: url('../img/lambo4.jpg');
+    }
+    62% {
+        opacity: 1;
+    }
+    68% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0;
+    }
+    80% {
+        background-image: url('../img/lambo5.jpg');
+    }
+    83% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    91% {
+        opacity: 0;
+    }
+    100% {
+        background-image: url('../img/lambo5.jpg');
+    }
+}

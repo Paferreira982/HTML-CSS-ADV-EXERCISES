@@ -8,4 +8,31 @@
 
     /* Fonte de texto */
     --font-nav: "Quicksand", sans-serif;
+
+    /* Responsividade */
+    /* Desktop */
+    --font-size-title-dsk: 35px;
+    --font-size-text-dsk: 100px;
+
+    /* Celular */
+    --font-size-title-cell: 20px;
+    --font-size-text-cell: 50px;
+
+    /* Imagens Desktop e afins */
+    --lambo1: url('../img/lambo1.jpg');
+    --lambo2: url('../img/lambo2.jpg');
+    --lambo3: url('../img/lambo3.jpg');
+    --lambo4: url('../img/lambo4.jpg');
+    --lambo5: url('../img/lambo5.jpg');
+
+    /* Imagens Celulares e Tablets */
+    --lambo1-cel: url('../img/lambo1-cel.jpg');
+    --lambo2-cel: url('../img/lambo2-cel.jpg');
+    --lambo3-cel: url('../img/lambo3-cel.jpg');
+    --lambo4-cel: url('../img/lambo4-cel.jpg');
+    --lambo5-cel: url('../img/lambo5-cel.jpg');
+
+    /* Imagens */
+    --capa-models: url('../img/lambo-capa-models.jpg');
+    --capa-models-cell: url('../img/lambo3-cel.jpg');
 }

@@ -13,15 +13,6 @@ p {
     font-size: 20px;
 }
 
-.bg-black {
-    background: var(--black);
-}
-
-.white {
-    color: var(--white);
-    font-size: 12px;
-}
-
 hr {
     position: relative;
     top: 10px;
@@ -55,7 +46,7 @@ hr {
 @media screen and (max-width: 800px) {
     @keyframes transitImg {
         0% {
-            background-image: url('../img/lambo1-cel.jpg');
+            background-image: var(--lambo1-cel);
         }
         2% {
             opacity: 1;
@@ -67,7 +58,7 @@ hr {
             opacity: 0;
         }
         20% {
-            background-image: url('../img/lambo2-cel.jpg');
+            background-image: var(--lambo2-cel);
         }
         22% {
             opacity: 1;
@@ -79,7 +70,7 @@ hr {
             opacity: 0;
         }
         40% {
-            background-image: url('../img/lambo3-cel.jpg');
+            background-image: var(--lambo3-cel);
         }
         42% {
             opacity: 1;
@@ -91,7 +82,7 @@ hr {
             opacity: 0;
         }
         60% {
-            background-image: url('../img/lambo4-cel.jpg');
+            background-image: var(--lambo4-cel);
         }
         62% {
             opacity: 1;
@@ -103,7 +94,7 @@ hr {
             opacity: 0;
         }
         80% {
-            background-image: url('../img/lambo5-cel.jpg');
+            background-image: var(--lambo5-cel);
         }
         83% {
             opacity: 1;
@@ -115,7 +106,7 @@ hr {
             opacity: 0;
         }
         100% {
-            background-image: url('../img/lambo5-cel.jpg');
+            background-image: var(--lambo5-cel);
         }
     }
 }
@@ -123,7 +114,7 @@ hr {
 @media screen and (min-width: 800px) {
     @keyframes transitImg {
         0% {
-            background-image: url('../img/lambo1.jpg');
+            background-image: var(--lambo1);
         }
         2% {
             opacity: 1;
@@ -135,7 +126,7 @@ hr {
             opacity: 0;
         }
         20% {
-            background-image: url('../img/lambo2.jpg');
+            background-image: var(--lambo2);
         }
         22% {
             opacity: 1;
@@ -147,7 +138,7 @@ hr {
             opacity: 0;
         }
         40% {
-            background-image: url('../img/lambo3.jpg');
+            background-image: var(--lambo3);
         }
         42% {
             opacity: 1;
@@ -159,7 +150,7 @@ hr {
             opacity: 0;
         }
         60% {
-            background-image: url('../img/lambo4.jpg');
+            background-image: var(--lambo4);
         }
         62% {
             opacity: 1;
@@ -171,7 +162,7 @@ hr {
             opacity: 0;
         }
         80% {
-            background-image: url('../img/lambo5.jpg');
+            background-image: var(--lambo5);
         }
         83% {
             opacity: 1;
@@ -183,7 +174,7 @@ hr {
             opacity: 0;
         }
         100% {
-            background-image: url('../img/lambo5.jpg');
+            background-image: var(--lambo5);
         }
     }
 }

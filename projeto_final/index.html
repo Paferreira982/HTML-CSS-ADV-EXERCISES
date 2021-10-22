@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lamborghini</title>
 
+    <!--Styles/Scripts importados -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!--Styles/Scripts proprios-->
+    <link rel="stylesheet" href="./css/var.css">
+    <link rel="stylesheet" href="./css/nav-bar.css">
+    <link rel="stylesheet" href="./css/home.css">
+
 </head>
 
 <body>
@@ -34,7 +42,7 @@
         </nav>
     </header>
     
-    <main style="height: 300vh;">
+    <main>
         <div class="bg-images">
             <div class="home-bg-img"></div>
         </div>
@@ -74,24 +82,11 @@
  
 </body>
 
-<!--Styles/Scripts importados -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--Scripts importados -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-<!--Styles/Scripts proprios-->
-<link rel="stylesheet" href="./css/nav-bar.css">
-<link rel="stylesheet" href="./css/home.css">
+<!--Scripts proprios-->
 <script src="js/nav-bar.js"></script>
-
-<script>
-    $(window).scroll(function() {
-        if ($(document).scrollTop() > 50) {
-            $('.nav').addClass('affix');
-        } else {
-            $('.nav').removeClass('affix');
-        }
-    });
-</script>
 
 </html>

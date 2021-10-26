@@ -8,11 +8,6 @@ div img {
     max-width: 100%;
 }
 
-p {
-    color: var(--gray);
-    font-size: 20px;
-}
-
 hr {
     position: relative;
     top: 10px;
@@ -23,10 +18,6 @@ hr {
 
 .bg-images {
     background-color: var(--black);
-}
-
-.container-config {
-    margin-top: 60px;
 }
 
 .home-bg-img {

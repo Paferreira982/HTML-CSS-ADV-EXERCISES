@@ -1,0 +1,12 @@
+p {
+    color: var(--gray);
+    font-size: 20px;
+}
+
+.container-config {
+    margin-top: 60px;
+}
+
+.slide_style_left {
+    margin-left: 10% !important;
+}

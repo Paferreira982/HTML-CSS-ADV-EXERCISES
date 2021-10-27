@@ -1,35 +1,24 @@
-.models-bg-img {
-    width: 100vw;
-    height: 100vh;
-    background-image: var(--capa-models);
-    background-size: cover;
-    background-position: center;
-    max-width: 100%;
-    z-index: 10;
+.img-cover-left {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 310px solid var(--light-grey);
+    border-right: 100px solid transparent;
 }
 
-@media screen and (max-width: 800px) {
-    .img-title {
-        font-size: var(--font-size-title-cell);
-    }
-    .img-text {
-        font-size: var(--font-size-text-cell);
-        font-weight: bolder;
-    }
-    .models-bg-img {
-        background-image: var(--capa-models-cell);
-    }
+.img-cover-right {
+    margin-left: -100px;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-bottom: 310px solid var(--light-grey);
+    border-left: 100px solid transparent;
 }
 
-@media screen and (min-width: 800px) {
-    .img-title {
-        font-size: var(--font-size-title-dsk);
-    }
-    .img-text {
-        font-size: var(--font-size-text-dsk);
-        font-weight: bolder;
-    }
-    .models-bg-img {
-        background-image: var(--capa-models);
-    }
+.model-description {
+    font-size: 17px;
+}
+
+img {
+    width: 100%;
 }

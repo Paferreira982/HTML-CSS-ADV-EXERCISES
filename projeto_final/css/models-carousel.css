@@ -3,11 +3,6 @@
     padding: 0;
 }
 
-.carousel-control-prev,
-.carousel-control-next {
-    display: none;
-}
-
 .top-content .carousel {
     margin-bottom: 0px;
 }
@@ -46,6 +41,10 @@
     .top-content h2,
     .top-content h3 {
         font-size: 18px;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
     }
 }
 
@@ -193,6 +192,10 @@
     }
     .slide_style_right {
         margin-top: 10% !important;
+    }
+    .carousel-control-prev,
+    .carousel-control-next {
+        display: none;
     }
 }
 

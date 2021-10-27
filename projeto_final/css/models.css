@@ -1,18 +1,7 @@
-.img-cover-left {
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-top: 310px solid var(--light-grey);
-    border-right: 100px solid transparent;
-}
-
-.img-cover-right {
-    margin-left: -100px;
-    position: absolute;
-    width: 0;
-    height: 0;
-    border-bottom: 310px solid var(--light-grey);
-    border-left: 100px solid transparent;
+hr {
+    position: relative;
+    background: var(--gray);
+    margin-bottom: 50px;
 }
 
 .model-description {
@@ -21,4 +10,66 @@
 
 img {
     width: 100%;
+}
+
+.spec-tecnic-config {
+    margin-top: 80px;
+}
+
+.table-config {
+    margin-top: -25px !important;
+}
+
+@media screen and (max-width: 815px) {
+    #first-slide {
+        content: url("../img/urus-cel.jpg");
+    }
+    #second-slide {
+        content: url("../img/huracan-cel.jpg");
+    }
+    #third-slide {
+        content: url("../img/aventador-cel.jpg");
+    }
+    .mob-no {
+        display: none;
+    }
+    .mob {
+        display: inline-block;
+    }
+    p {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 815px) {
+    #first-slide {
+        content: url("../img/urus.jpg");
+    }
+    #second-slide {
+        content: url("../img/huracan.jpg");
+    }
+    #third-slide {
+        content: url("../img/aventador.jpg");
+    }
+    .img-cover-right {
+        margin-left: -100px;
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-bottom: 310px solid var(--light-grey);
+        border-left: 100px solid transparent;
+    }
+    .img-cover-left {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-top: 310px solid var(--light-grey);
+        border-right: 100px solid transparent;
+    }
+    .mob-no {
+        display: inline-block;
+    }
+    .mob {
+        display: none;
+    }
 }

@@ -12,10 +12,8 @@
     --font-size-title-dsk: 35px;
     --font-size-text-dsk: 90px;
     /* Celular */
-    --font-size-title-cell: 20px;
-    --font-size-title-slide-cell: 15px;
-    --font-size-text-cell: 50px;
-    --font-size-text-slide-cell: 25px;
+    --font-size-title-slide-cell: 20px;
+    --font-size-text-slide-cell: 30px;
     /* Imagens Desktop e afins */
     --lambo1: url('../img/lambo1.jpg');
     --lambo2: url('../img/lambo2.jpg');

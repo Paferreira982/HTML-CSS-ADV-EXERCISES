@@ -18,9 +18,9 @@ textarea {
 }
 
 .contact-container {
-    transform: translate(0%, 50%);
+    transform: var(--transform-input);
 }
 
 .form-control {
-    font-size: 2rem;
+    font-size: var(--input-size);
 }

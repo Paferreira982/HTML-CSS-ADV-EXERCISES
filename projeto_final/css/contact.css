@@ -1,0 +1,26 @@
+body {
+    background-image: var(--contact-img);
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+}
+
+main {
+    min-height: 100vh;
+}
+
+textarea {
+    resize: none;
+}
+
+.card {
+    font-size: var(--font-size-label);
+}
+
+.contact-container {
+    transform: translate(0%, 50%);
+}
+
+.form-control {
+    font-size: 2rem;
+}

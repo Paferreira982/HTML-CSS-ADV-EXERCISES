@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <!--Styles importados -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--Styles proprios-->
+    <link rel="stylesheet" href="./css/var.css" type="text/css">
+    <link rel="stylesheet" href="./css/commons.css" type="text/css">
+    <link rel="stylesheet" href="./css/nav-bar.css" type="text/css">
+    <link rel="stylesheet" href="./css/contact.css" type="text/css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="index.html">
+                        Lamborghini
+                    </a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="modelos.html">Modelos</a></li>
+                        <li><a href="midia.html">Midia</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container contact-container">
+            <div class="card">
+                <div class="card-header">
+                    Contato
+                </div>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Insira seu nome completo" required onblur="validateNome()">
+                            <div class="invalid-feedback" id="nome-feedback"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="sexo">Sexo</label>
+                            <select class="form-control" id="sexo" name="sexo" onblur="validateSex()" required>
+                           <option selected="selected" hidden>Selecione</option>	
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                      </select>
+                            <div class="invalid-feedback" id="sexo-feedback"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="input-cpf">CPF</label>
+                            <input type="text" class="form-control" id="input-cpf" name="cpf" placeholder="Insira seu cpf" onkeyup="tratarCPF();" maxlength="14" autocomplete="off" required onblur="validateCPF()">
+                            <div class="invalid-feedback" id="cpf-feedback"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="dataNascimento">Data de nascimento</label>
+                            <input type="date" class="form-control" id="dataNascimento" name="dataNascimento" required onblur="validateData()">
+                            <div class="invalid-feedback" id="dataNascimento-feedback" onclick="adjustMaxAndMinOfDate()"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="descricao">Descrição</label>
+                            <textarea class="form-control" id="descricao" rows="3" maxlength="300" required onblur="validateDesc()"></textarea>
+                            <div class="invalid-feedback" id="descricao-feedback"></div>
+                        </div>
+                        <button type="submit" class="btn btn-secondary btn-lg">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class=" dark page-footer font-small bg-black">
+        <div class="footer-copyright text-center py-3 white">© 2021 Copyright:
+            <a href="https://github.com/Paferreira982"> Pedro Augusto</a>
+        </div>
+    </footer>
+
+    <!--Scripts importados -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!--Scripts proprios-->
+    <script src="js/nav-bar.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+
+
+
+</html>

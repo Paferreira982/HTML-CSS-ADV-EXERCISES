@@ -34,138 +34,68 @@ hr {
     z-index: 10;
 }
 
-@media screen and (max-width: 800px) {
-    @keyframes transitImg {
-        0% {
-            background-image: var(--lambo1-cel);
-        }
-        2% {
-            opacity: 1;
-        }
-        8% {
-            opacity: 1;
-        }
-        10% {
-            opacity: 0;
-        }
-        20% {
-            background-image: var(--lambo2-cel);
-        }
-        22% {
-            opacity: 1;
-        }
-        28% {
-            opacity: 1;
-        }
-        30% {
-            opacity: 0;
-        }
-        40% {
-            background-image: var(--lambo3-cel);
-        }
-        42% {
-            opacity: 1;
-        }
-        48% {
-            opacity: 1;
-        }
-        50% {
-            opacity: 0;
-        }
-        60% {
-            background-image: var(--lambo4-cel);
-        }
-        62% {
-            opacity: 1;
-        }
-        68% {
-            opacity: 1;
-        }
-        70% {
-            opacity: 0;
-        }
-        80% {
-            background-image: var(--lambo5-cel);
-        }
-        83% {
-            opacity: 1;
-        }
-        90% {
-            opacity: 1;
-        }
-        91% {
-            opacity: 0;
-        }
-        100% {
-            background-image: var(--lambo5-cel);
-        }
+@keyframes transitImg {
+    0% {
+        background-image: var(--lambo1);
     }
-}
-
-@media screen and (min-width: 800px) {
-    @keyframes transitImg {
-        0% {
-            background-image: var(--lambo1);
-        }
-        2% {
-            opacity: 1;
-        }
-        8% {
-            opacity: 1;
-        }
-        10% {
-            opacity: 0;
-        }
-        20% {
-            background-image: var(--lambo2);
-        }
-        22% {
-            opacity: 1;
-        }
-        28% {
-            opacity: 1;
-        }
-        30% {
-            opacity: 0;
-        }
-        40% {
-            background-image: var(--lambo3);
-        }
-        42% {
-            opacity: 1;
-        }
-        48% {
-            opacity: 1;
-        }
-        50% {
-            opacity: 0;
-        }
-        60% {
-            background-image: var(--lambo4);
-        }
-        62% {
-            opacity: 1;
-        }
-        68% {
-            opacity: 1;
-        }
-        70% {
-            opacity: 0;
-        }
-        80% {
-            background-image: var(--lambo5);
-        }
-        83% {
-            opacity: 1;
-        }
-        90% {
-            opacity: 1;
-        }
-        91% {
-            opacity: 0;
-        }
-        100% {
-            background-image: var(--lambo5);
-        }
+    2% {
+        opacity: 1;
+    }
+    8% {
+        opacity: 1;
+    }
+    10% {
+        opacity: 0;
+    }
+    20% {
+        background-image: var(--lambo2);
+    }
+    22% {
+        opacity: 1;
+    }
+    28% {
+        opacity: 1;
+    }
+    30% {
+        opacity: 0;
+    }
+    40% {
+        background-image: var(--lambo3);
+    }
+    42% {
+        opacity: 1;
+    }
+    48% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    60% {
+        background-image: var(--lambo4);
+    }
+    62% {
+        opacity: 1;
+    }
+    68% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0;
+    }
+    80% {
+        background-image: var(--lambo5);
+    }
+    83% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    91% {
+        opacity: 0;
+    }
+    100% {
+        background-image: var(--lambo5);
     }
 }

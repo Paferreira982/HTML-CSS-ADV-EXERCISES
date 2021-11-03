@@ -1,32 +1,44 @@
 :root {
-    /* Cores */
     --black: #000;
     --white: #fff;
     --gray: #808080;
     --yellow: #e9e506;
     --light-grey: rgb(224, 224, 224);
-    /* Fonte de texto */
     --font-nav: "Quicksand", sans-serif;
-    /* Responsividade */
-    /* Desktop */
-    --font-size-title-dsk: 35px;
-    --font-size-text-dsk: 90px;
-    /* Celular */
-    --font-size-title-slide-cell: 20px;
-    --font-size-text-slide-cell: 30px;
-    /* Imagens Desktop e afins */
-    --lambo1: url('../img/lambo1.jpg');
-    --lambo2: url('../img/lambo2.jpg');
-    --lambo3: url('../img/lambo3.jpg');
-    --lambo4: url('../img/lambo4.jpg');
-    --lambo5: url('../img/lambo5.jpg');
-    /* Imagens Celulares e Tablets */
-    --lambo1-cel: url('../img/lambo1-cel.jpg');
-    --lambo2-cel: url('../img/lambo2-cel.jpg');
-    --lambo3-cel: url('../img/lambo3-cel.jpg');
-    --lambo4-cel: url('../img/lambo4-cel.jpg');
-    --lambo5-cel: url('../img/lambo5-cel.jpg');
-    /* Imagens */
-    --capa-models: url('../img/lambo-capa-models.jpg');
-    --capa-models-cell: url('../img/lambo3-cel.jpg');
+    --contact-img: url('../img/contact-img.jpg');
+}
+
+
+/* Celulares e Tablets */
+
+@media screen and (max-width: 800px) {
+     :root {
+        --lambo1: url('../img/lambo1-cel.jpg');
+        --lambo2: url('../img/lambo2-cel.jpg');
+        --lambo3: url('../img/lambo3-cel.jpg');
+        --lambo4: url('../img/lambo4-cel.jpg');
+        --lambo5: url('../img/lambo5-cel.jpg');
+        --capa-models: url('../img/lambo3-cel.jpg');
+        --font-size-title-slide: 20px;
+        --font-size-text-slide: 30px;
+        --font-size-label: 10px;
+    }
+}
+
+
+/* Desktop e afins */
+
+@media screen and (min-width: 800px) {
+     :root {
+        --lambo1: url('../img/lambo1.jpg');
+        --lambo2: url('../img/lambo2.jpg');
+        --lambo3: url('../img/lambo3.jpg');
+        --lambo4: url('../img/lambo4.jpg');
+        --lambo5: url('../img/lambo5.jpg');
+        --capa-models: url('../img/lambo-capa-models.jpg');
+        --contact-img: url('../img/contact-img.jpg');
+        --font-size-title: 35px;
+        --font-size-text: 90px;
+        --font-size-label: 16px;
+    }
 }
